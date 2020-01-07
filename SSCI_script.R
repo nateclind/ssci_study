@@ -9,7 +9,7 @@ library(igraph)
 # PREPROCESSING
 
 # Read csv formatted data
-data <- read.csv("C:/Users/Nathan/Google Drive/Dissertation/Data/SSCI_data.csv") # Enter the datafile directory here
+data <- read.csv("C:/.../SSCI_data.csv") # Enter the datafile directory here
 
 # Process data using function textProcessor()
 processed <- textProcessor(data$ab, metadata = data) 
